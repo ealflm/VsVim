@@ -4,6 +4,7 @@ return {
     event = "VeryLazy",
     ---@type Flash.Config
     opts = {},
+    return
     -- stylua: ignore
     keys = {
       -- { "S", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
