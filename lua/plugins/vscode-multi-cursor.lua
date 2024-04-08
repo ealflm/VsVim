@@ -10,7 +10,7 @@ return {
       no_selection = false
     },
     init = function()
-      vim.keymap.set('n', '<c-j>', 'mciw*<Cmd>nohl<CR>', { remap = true })
+      vim.keymap.set('n', '<c-h>', 'mciw*<Cmd>nohl<CR>', { remap = true })
     end,
   }
 }
